@@ -10,10 +10,10 @@ Definitions and extensions for Exposed databases.
 
 ## Installation
 
-Add dependency to your `build.gradle` or `pom.xml`:
+Add dependency to your `build.gradle(.kts)` or `pom.xml`:
 
-```groovy
-compile 'me.nathanfallet.surexposed:surexposed:1.0.0'
+```kotlin
+api("me.nathanfallet.surexposed:surexposed:1.0.0")
 ```
 
 ```xml
