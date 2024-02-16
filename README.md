@@ -13,7 +13,7 @@ Definitions and extensions for Exposed databases.
 Add dependency to your `build.gradle(.kts)` or `pom.xml`:
 
 ```kotlin
-api("me.nathanfallet.surexposed:surexposed:1.0.0")
+api("me.nathanfallet.surexposed:surexposed:1.0.1")
 ```
 
 ```xml
@@ -21,7 +21,7 @@ api("me.nathanfallet.surexposed:surexposed:1.0.0")
 <dependency>
     <groupId>me.nathanfallet.surexposed</groupId>
     <artifactId>surexposed-jvm</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 

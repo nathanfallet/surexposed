@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "me.nathanfallet.surexposed"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -26,7 +26,7 @@ kotlin {
 
     applyDefaultHierarchyTemplate()
 
-    val exposedVersion = "0.46.0"
+    val exposedVersion = "0.47.0"
 
     sourceSets {
         val commonMain by getting {
@@ -38,7 +38,7 @@ kotlin {
                 api("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
                 api("org.jetbrains.exposed:exposed-dao:$exposedVersion")
 
-                api("me.nathanfallet.usecases:usecases:1.5.5")
+                api("me.nathanfallet.usecases:usecases:1.5.6")
             }
         }
         val jvmTest by getting {
